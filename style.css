@@ -1,0 +1,55 @@
+#card > img {
+    height: 300px;
+    width: 220px;
+    margin: 10px;
+}
+#card {
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(images/table.jpeg);
+    font-family: "Sofia", sans-serif;
+}
+p{
+
+    height: 60px;
+    width: 180px;
+    padding-top: 10px;
+    background-color:#FF0000;
+    color: black;
+}
+#computer > img {
+    height: 300px;
+    width: 220px;
+    margin: 10px;
+}
+#computer {
+    display: flex;
+    justify-content: center;
+}
+.cardgiver{
+    border-style: dotted solid dotted;
+    border-radius: 20px;
+}
+.nomore{
+    margin-top: 20px;
+    background-color:#00FF00;
+    border-style: dotted solid dotted;
+    border-radius: 20px;
+}
+.reset{
+    margin-top: 20px;
+    background-color:#FFFF00;
+    border-style: dotted solid dotted;
+    border-radius: 20px;
+}
+.buttons{
+    margin-top: -18px;
+    margin-left: -10px;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    position:relative;
+    left: 100px;
+    top:30px;
+}
